@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from imblearn.over_sampling import RandomOverSampler
 
+nltk.download('punkt')
 nltk.download('stopwords')
 class PreProcessor:
     def __init__(self, palavras_chave):

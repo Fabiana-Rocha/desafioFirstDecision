@@ -1,10 +1,10 @@
-from src.CarregaDados import CarregaDados
-from src.PreProcessor import PreProcessor
-from src.TreinaModelo import TreinaModelo
-from src.AvaliaModelo import AvaliaModelo
-from src.SelecionaModelo import SelecionaModelo
-from src.ObtemEmpresas import ObtemEmpresas
-from src.VisualizacaoModelo import VisualizacaoModelo
+from CarregaDados import CarregaDados
+from PreProcessor import PreProcessor
+from TreinaModelo import TreinaModelo
+from AvaliaModelo import AvaliaModelo
+from SelecionaModelo import SelecionaModelo
+from ObtemEmpresas import ObtemEmpresas
+from VisualizacaoModelo import VisualizacaoModelo
 
 class main:
         @staticmethod

@@ -3,7 +3,6 @@ import pandas as pd
 
 from src.PreProcessor import PreProcessor
 
-
 class TestTextProcessor(unittest.TestCase):
     def setUp(self):
         # Configuração inicial dos dados de teste
